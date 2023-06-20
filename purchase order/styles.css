@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 85%;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    width: 50%;
+    height: 80px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 3px solid #080808;
+}
+th, td{
+    padding: 8px;
+}
+tr:not(.no-border) th, tr:not(.no-border) td{
+    padding: 8px;
+    border: 2px solid #080808;
+}
+
+

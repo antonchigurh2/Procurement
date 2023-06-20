@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Supplier Invoice Details</title>
+    <script src="https://kit.fontawesome.com/55b27e0a0c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="overall-container"> <!--Class to control all the elements together-->
+        <table class="table " style="border: none;">
+            <!-- Table 1 which consists of the logo and the Name & Address of the company-->
+            <tr>
+                <td style="border:none"><img src="logo2.png" alt=""></td>
+                <td style="text-align: right; border: none;"><strong style="font-size: 25px;">SAMASVAH BUSINESS
+                        SOLUTIONS</strong><br>
+                    Plot No. IV A , Ground Floor , Rajeswari Street, Iswarya Garden, Goparasanallur Village, Poonamallee
+                    Taluk <br>
+                    Chennai - 600 056, Tamil Nadu, India - 600 056, Tamilnadu (33) <br>
+                    <strong>GSTIN:</strong> 33ADQFS3038M1ZM, <strong>Website: </strong>https://www.samasvah.com <br>
+                    <strong>Mobile No:</strong> +91- 7305051671,<strong>Email:</strong> info@samasvah.com <br>
+                </td>
+            </tr>
+        </table>
+        <table class="table" style="border-top: 3px solid rgb(14, 162, 190);">
+            <!--Table 2 which consists of Title of the Document-->
+            <tr>
+                <td rowspan="3" style="text-align: center; font-size: 30px; width: 75%;"> <strong>GOOD RECEIPT</strong>
+                </td>
+                <td style="width: 5px;font-size: 8px;"><i class="fa-solid fa-check fa-xl" style="color: #00ff11;"></i>
+                </td>
+                <td style="font-size: 10px;">ORIGINAL FOR RECIPIENT</td>
+            </tr>
+            <tr>
+                <td style="font-size: 8px;"><i class="fa-solid fa-x fa-xl" style="color: #ff0000;"></i></td>
+                <td style="font-size: 10px;">FOR SUPPLIER/TRANSPORTER</td>
+            </tr>
+            <tr style="border-bottom: none;">
+                <td style="font-size: 8px;"><i class="fa-solid fa-x fa-xl" style="color: #ff0000;"></i></td>
+                <td style="font-size: 10px;">TRIPLICATE FOR SUPPLIER</td>
+            </tr>
+        </table>
+        <table class="table"> <!--Table 3 which consists of the details of the deal-->
+            <tr>
+                <td>
+                    <strong>Place of Supply:</strong>
+                </td>
+                <td>
+                    <strong>Date of Supply:</strong> <br>
+                    08.02.2023
+                </td>
+                <td>
+                    <strong>Good Receipt Dated</strong> <br>
+                    07.02.2023
+                </td>
+                <td>
+                    <strong> Good Receipt No.</strong> <br>
+                    60
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <strong>Contact Person:</strong><br>
+                    Johnson
+                </td>
+                <td>
+                    <strong>Payment Mode:</strong> <br>
+                    Credit
+                </td>
+                <td>
+                    <strong>Transportation Mode:</strong> <br>
+                    -
+                </td>
+                <td>
+                    <strong> Vehicle No.:-</strong> <br>
+                </td>
+
+            </tr>
+        </table>
+        <table class="table" border="0">
+            <!--Table 4 which consist of the details of the supplier and buyer-->
+            <tr>
+                <td colspan="2" style="text-align: center;"> <strong>DETAILS OF SUPPLIER | PO TO: </strong></td>
+                <td colspan="2" style="text-align: center;"><strong>SHIP TO:</strong></td>
+            </tr>
+            <tr class="no-border" style="border-bottom: 0px;">
+                <td><strong>Name</strong></td>
+                <td style="border-right: 2px solid rgb(14, 162, 190);">: CHANDRA BAZAAR</td>
+                <td><strong>Name</strong></td>
+                <td>: SAMASVAH BUSINESS SOLUTIONS</td>
+            </tr>
+            <tr class="no-border" style="border-bottom: 0px;">
+                <td><strong>Address</strong></td>
+                <td style="border-right: 2px solid rgb(14, 162, 190); font-size: 12.95px;">: NO,8/131/ SANATHI STREET
+                    KOLADI ROAD <br>
+                    THIRUVERKADU <br>
+                    CHENNAI - 600077</td>
+                <td><strong>Address</strong></td>
+                <td>: Plot No. IV A , Ground Floor , Rajeswari Street, Iswarya <br>
+                    Garden <br>
+                    Goparasanallur Village, Poonamallee Taluk <br>
+                    Chennai - 600 056, Tamil Nadu, India - 600 056</td>
+            </tr>
+            <tr class="no-border" style="border-bottom: 0px;">
+                <td><strong>GSTIN</strong></td>
+                <td style="border-right: 2px solid rgb(14, 162, 190);">:</td>
+                <td><strong>GSTIN</strong></td>
+                <td>: 33ADQFS3038M1ZM</td>
+            </tr>
+            <tr class="no-border" style="border-bottom: 0px;">
+                <td><strong>State</strong></td>
+                <td style="border-right: 2px solid rgb(14, 162, 190);">: Tamilnadu</td>
+                <td><strong>State</strong></td>
+                <td>: Tamilnadu</td>
+            </tr>
+
+        </table>
+
+        <table class="table"> <!--Table 5 consisting the detail of the items ordered-->
+            <tr>
+                <th style="background-color: rgb(0, 130, 198); color: white;">S.No.</th>
+                <th style="background-color: rgb(0, 130, 198); color: white;">Part Code</th>
+                <th style="background-color: rgb(0, 130, 198); color: white;">Name of Product/Service</th>
+                <th style="background-color: rgb(0, 130, 198); color: white;">HSN/ACS</th>
+                <th style="background-color: rgb(0, 130, 198); color: white;">Qty</th>
+                <th style="background-color: rgb(0, 130, 198); color: white;">Unit</th>
+                <th style="background-color: rgb(0, 130, 198); color: white;">Rate</th>
+                <th style="background-color: rgb(0, 130, 198); color: white;">GST</th>
+                <th style="background-color: rgb(0, 130, 198); color: white;">Amount</th>
+            </tr>
+            <tr>
+                <td style="text-align: center;">1</td>
+                <td style="text-align: center;">SAM-6381</td>
+                <td style="text-align: center;">90632100</td>
+                <td style="text-align: center;">Tooth Brush</td>
+                <td style="text-align: center;">100</td>
+                <td style="text-align: center;">PC</td>
+                <td style="text-align: center;">13.56</td>
+                <td style="text-align: center;">18%</td>
+                <td style="text-align: center;">1355.93</td>
+            </tr>
+        </table>
+        <table class="table"> <!--Table 6 consists the blank area as well as T&Cs, Amount calculation and Remarks-->
+            <tr>
+                <td colspan="3"><br><br><br><br><br><br>
+                    <br<br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top; " rowspan="6">
+                    <strong>Terms and Conditions:</strong> <br>
+                    1. No. Complaint Will be entertained if the same are not received within 24 hours from the time of
+                    <br>
+                    issue <br>
+                    2.Interest @2% will be charged if bill is not paid within 15days. <br>
+                    3.All payment are to be made by 'Payee's account' cheque/ NEFT/ RTGS only. <br>
+                    4.You had agreed our terms & Contions. <br>
+                    5. Goods once sold can not be return back. <br>
+                    5.Payment Terms - Immediate <br>
+                    6.Taxes As applicable as indicated. <br>
+                </td>
+                <td><strong>Gross Amount </strong></td>
+                <td>1355.93</td>
+            </tr>
+            <tr>
+                <td><strong>Fright Amount</strong></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><strong>CGST Amount</strong></td>
+                <td>122.035</td>
+            </tr>
+            <tr>
+                <td><strong>SGST Amount</strong></td>
+                <td>122.035</td>
+            </tr>
+            <tr>
+                <td><strong>IGST Amount</strong></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><strong>Round Off(+)</strong></td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Total invoice Amount in Words::</strong> <br>
+                    ONE THOUSAND SIX HUNDRED INDIAN RUPEE
+                </td>
+                <td><strong>Net Amount (INR)</strong></td>
+                <td><strong>1600</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Remarks:</strong> <br>
+                    1. Invoice should be in the name of “ Samasvah Business Solutions ” 2. Invoice should mention our
+                    <br>
+                    GST Number "33ADQFS3038M1ZM" and PAN NO. ADQFS3038M</td>
+                <td colspan="2"> <br></td>
+            </tr>
+        </table>
+        <table class="table"> <!--Table 7 shows the final amount after the calculation-->
+            <tr>
+                <td><strong>GST%</strong></td>
+                <td><strong>Taxable Amount</strong></td>
+                <td><strong>CGST%</strong></td>
+                <td><strong>Amount</strong></td>
+                <td><strong>SGST%</strong></td>
+                <td><strong>Amount</strong></td>
+                <td><strong>IGST%</strong></td>
+                <td><strong>Amount</strong></td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>1355.993</td>
+                <td>9%</td>
+                <td>122.035</td>
+                <td>9%</td>
+                <td>122.035</td>
+                <td><strong>-</strong></td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td>1355.993</td>
+                <td>&nbsp;</td>
+                <td>122.035</td>
+                <td>&nbsp;</td>
+                <td>122.035</td>
+                <td>&nbsp;</td>
+                <td>-</td>
+            </tr>
+        </table>
+        <table class="table">
+            <!-- Table 8 shows the foot of the whole table consisting of the bank details of the company-->
+            <tr class="no-border" style="border-bottom: 2px solid rgb(14, 162, 190); vertical-align: top;">
+                <td>
+                    <strong>Company's Bank Details:</strong> <br>
+                    <strong>Bank Name:</strong> HDFC <br>
+                    <strong> AC Type/No.:</strong> Current/50200031559291 <br>
+                    <strong>IFS Code:</strong> HDFC0009035 <br>
+                </td>
+                <td style="text-align: right;">
+                    Certified that the particulars given above are True & Correct. <br>
+                    for <strong>SAMASVAH BUSINESS SOLUTIONS</strong><br> <br> <br><br>
+                    <strong>Authorised Signatory</strong>
+                </td>
+            </tr>
+        </table>
+
+        <p style="text-align: center;">This is a Computer Generated Good Receipt</p>
+    </div>
+</body>
+
+</html>
